@@ -1,0 +1,23 @@
+package atividades;
+
+import java.util.Scanner;
+
+public class Lista1Atividade1 {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Digite o primeiro valor: ");
+		int numero1 = sc.nextInt();
+		System.out.println("Informe o segundo valor: ");
+		int numero2 = sc.nextInt();
+		
+		int resultadosom = numero1 + numero2;
+		int resultadosub = numero1 - numero2;
+		int resultadomult = numero1 * numero2;
+		int resultadodiv = numero1 / numero2;
+		
+		System.out.println("A soma dos valores: " + resultadosom + "\nA subtracao dos valores: " + resultadosub + "\nA multiplicacao dos valores: " + resultadomult + "\nA diviso dos valores: " + resultadodiv);
+		}
+	}
